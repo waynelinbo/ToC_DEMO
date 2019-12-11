@@ -33,13 +33,13 @@ The initial state is set to `lobby`.
 (1) when user key in "psw"  => go into `psw`  
 (2) when user key in "A4B4" => go into `A4B4`  
 (3) when user key in "help" => go into `lobby_help`  
-(**`lobby_help`  state will auto go back to `lobby` after on_enter_lobby_help run out **)  
+(** `lobby_help`  state will auto go back to `lobby` after *on_enter_lobby_help* run out **)  
 	
 ### `psw`  is triggered to `psw_check` to `psw`, `psw_done`, `psw_help`, `lobby`  
 (1) when user key in the guess number != answer  => go into `psw`  
 (2) when user key in the guess number == answer  => go into `psw_done`  
 (3) when user key in "help"  => go into `psw_help`  
-(**`psw_help`  state will auto go back to `psw` after on_enter_psw_help run out **)  
+(** `psw_help`  state will auto go back to `psw` after *on_enter_psw_help* run out **)  
 (4) when user key in "exit"  => go into `lobby`  
 
 ### `psw_done`  is triggered to `psw_done_check` to `psw`, `lobby`   
@@ -50,7 +50,7 @@ The initial state is set to `lobby`.
 (1) when user key in the guess number != answer  => go into `A4B4`  
 (2) when user key in the guess number == answer  => go into `A4B4_done`  
 (3) when user key in "help"  => go into `A4B4_help`  
-(**`A4B4_help`  state will auto go back to `A4B4` after on_enter_A4B4_help run out **)  
+(** `A4B4_help`  state will auto go back to `A4B4` after *on_enter_A4B4_help* run out **)  
 (4) when user key in "exit"  => go into `lobby`  
 
 ### `A4B4_done`  is triggered to `A4B4_done_check` to `A4B4`, `lobby`   
