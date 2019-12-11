@@ -1,4 +1,4 @@
-# TOC Project 2020
+# ToC_Demo 2020
 
 ## Setup
 
