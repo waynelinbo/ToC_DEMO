@@ -21,7 +21,7 @@ pipenv shell
 
 * pygraphviz (For visualizing Finite State Machine)
     * [Setup pygraphviz on Ubuntu](http://www.jianshu.com/p/a3da7ecc5303)
-	* [Note: macOS Install error](https://github.com/pygraphviz/pygraphviz/issues/100)
+	* [Note: macOS Install error](https://github.com/pygraphviz/pygraphviz/issues/100)  
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
